@@ -1,6 +1,5 @@
 absl-py
-anaconda-client
-anaconda-navigator
+
 anyio 
 appnope 
 argon2-cffi 
