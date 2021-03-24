@@ -21,19 +21,13 @@ cffi
 chardet 
 click 
 cloudpickle
-clyent==1.2.2
-conda==4.9.2
-conda-build==3.20.5
-conda-package-handling
-conda-verify==3.4.2
 
-cycler==0.10.0
-dash==1.19.0
-dash-bootstrap-components==0.12.0
-dash-core-components==1.15.0
-dash-html-components==1.1.2
-dash-renderer==1.9.0
-dash-table==4.11.2
+dash
+dash-bootstrap-components
+dash-core-components
+dash-html-components
+dash-renderer
+dash-table
 
 entrypoints==0.3
 
