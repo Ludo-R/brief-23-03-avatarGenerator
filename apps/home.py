@@ -56,7 +56,7 @@ layout = html.Div([
         id='click-avatar',
         children=html.Div([
             'Click Here',
-            html.A(' to generated new avatar')
+            html.A(' to generated new avatar !')
         ]),
         style={
             'width': '100%',
