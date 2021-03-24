@@ -35,13 +35,13 @@ Flask
 Flask-Compress
 flatbuffers
 future
-gast
+
 
 google-auth
 google-auth-oauthlib
 google-pasta
-grpcio
-h5py
+
+h5py==2.10.0
 heroku
 idna
 imageio
@@ -61,7 +61,7 @@ matplotlib
 
 
 numba
-numpy
+numpy==1.19.2
 pandas
 pyasn1
 pyasn1-modules
@@ -107,7 +107,7 @@ urllib3
 wcwidth
 webencodings
 Werkzeug
-
+wheel==0.35
 widgetsnbextension
 wrapt
 xmltodict 
