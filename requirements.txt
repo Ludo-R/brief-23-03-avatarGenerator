@@ -42,8 +42,8 @@ google-auth-oauthlib==0.4.3
 google-pasta==0.2.0
 grpcio==1.32.0
 h5py==2.10.0
-heroku==0.1.4
-
+heroku
+idna==2.5
 imageio==2.9.0
 
 itsdangerous==1.1.0
@@ -95,8 +95,8 @@ sniffio
 soupsieve 
 tensorboard==2.4.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.4.0
-tensorflow-estimator==2.4.0
+tensorflow
+tensorflow-estimator
 termcolor==1.1.0
 terminado==0.9.3
 testpath
@@ -109,6 +109,7 @@ urllib3
 wcwidth
 webencodings
 Werkzeug
+
 widgetsnbextension
 wrapt
 xmltodict 
