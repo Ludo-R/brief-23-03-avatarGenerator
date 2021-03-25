@@ -36,7 +36,7 @@ def plot_generated(examples, n):
 		pyplot.subplot(n, n, 1 + i)
 		pyplot.axis('off')
 		pyplot.imshow(examples[i, :, :])
-	pyplot.savefig("/Users/ludorandon/devia/brief-23-03-avatarGenerator/plot.png") 
+	pyplot.savefig("plot.png") 
 
 layout = html.Div([
     dbc.Container([
@@ -82,14 +82,14 @@ def on_button_click(n):
         return "Not clicked."
     else:
         im = None
-        model = keras.models.load_model('/Users/ludorandon/devia/brief-23-03-avatarGenerator/generator.h5')
+        model = keras.models.load_model('generator.h5')
         latent_points = generate_latent_points(256, 25)
         X  = model.predict(latent_points)
         X = (X + 1) / 2.0
         pyplot.switch_backend('Agg')
         plot_generated(X, 5)
 
-        im = Image.open("/Users/ludorandon/devia/brief-23-03-avatarGenerator/plot.png")
+        im = Image.open("plot.png")
     
         return html.Div([
             html.Img(src=im, style={'height':'100%', 'width':'100%'}),
