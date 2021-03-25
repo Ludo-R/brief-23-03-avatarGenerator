@@ -43,8 +43,7 @@ google-pasta
 grpcio==1.32.0
 
 h5py==2.10.0
-heroku
-idna
+idna==2.5
 imageio
 jedi
 Jinja2
@@ -73,7 +72,7 @@ pyOpenSSL
 pyparsing 
 pyrsistent 
 PySocks 
-python-dateutil==1.5
+python-dateutil==2.7.3
 pytz
 PyWavelets
 PyYAML
